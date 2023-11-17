@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    transition: 0.5s;
+    font-family: serif;
+}
+
+.video-bg{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.bg-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.text-home{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+.text-home h1{
+    color: white;
+    font-size: 6em;
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+.text-home i{
+    color: aqua;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+        margin-left: 3em;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.section-middle{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.artigo{
+    text-align: center;
+    color: white;
+}
+
+.img{
+    margin-bottom: 5px;
+}
+
+.bate-papo{
+    text-align: center;
+    color: white;
+}
+
+.jogos{
+    text-align: center;
+    color: white;
+}
+
+.section-last{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre{
+    width: 60%;
+    font-size: 1.8em;
+    text-align: justify;
+    color: white;
+}
+
+.overlay-section-last{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+}
+
+.bot{
+    display: flex;
+    justify-content: center;
+}

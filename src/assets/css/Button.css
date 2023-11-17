@@ -1,0 +1,47 @@
+.btn{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid white;
+    padding: 0 1.2rem;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.2) 0px 3px 6px;
+    font-size: 1rem;
+    height: 60px;
+    width: 40%;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.btn-ripple{
+    overflow: hidden;
+}
+
+.ripple-effect{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    pointer-events: none;
+    z-index: 5;
+    animation: ripple 0.7s linear infinite;
+}
+
+@keyframes ripple{
+    0%{
+        width: 0;
+        height: 0;
+        opacity: 0.4;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+        opacity: 0;
+    }
+}
