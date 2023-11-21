@@ -18,7 +18,7 @@ body {
 .container-header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 .container{
     display: flex;
@@ -50,10 +50,10 @@ a{
 }
 
 .login-container {
-    width: 40%;
-    height: 63vh;
+    width: 35%;
+    height: 59vh;
     border-radius: 10px;
-    padding: 17px;
+    padding: 10px;
     background-color: white;
     box-shadow: 0px 0px 10px 0px grey;
 }
