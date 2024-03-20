@@ -2,8 +2,8 @@ import { Image } from "react-bootstrap";
 import "../assets/css/Footer.css";
 import { Link } from "react-router-dom";
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <div>
             <footer>
                 <ul className="social-icon">
@@ -33,16 +33,10 @@ function Footer(){
                         <Link to={"/"}>Home</Link>
                     </li>
                     <li>
-                        <Link to={"#"}>About</Link>
+                        <Link to={"/sobre"}>Sobre</Link>
                     </li>
                     <li>
-                        <Link to={"#"}>Team</Link>
-                    </li>
-                    <li>
-                        <Link to={"#"}>Contact</Link>
-                    </li>
-                    <li>
-                        <Link to={"#"}>Services</Link>
+                        <Link to={"/contato"}>Contato</Link>
                     </li>
                 </ul>
                 <p>&copy;{new Date().getFullYear()} BlueMarble | All Rights Reserved</p>

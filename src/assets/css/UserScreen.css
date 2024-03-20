@@ -1,37 +1,37 @@
-.box{
+.box {
     color: black;
     position: absolute;
-    top: 49%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    padding: 15px;
+    padding: 12px;
     border-radius: 15px;
-    width: 25%;
+    width: 50%;
 }
 
-legend{
+legend {
     padding: 10px;
     text-align: center;
     border-radius: 8px;
 }
 
-.inputBox{
+.inputBox {
     position: relative;
 }
 
-.inputUser{
+.inputUser {
     background: none;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
     color: black;
     font-size: 15px;
-    width: 100%;
+    width: 240%;
     letter-spacing: 2px;
 }
 
-.labelInput{
+.labelInput {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -39,14 +39,14 @@ legend{
     transition: .5s;
 }
 
-.inputUser:focus ~ .labelInput,
-.inputUser:valid ~ .labelInput{
+.inputUser:focus~.labelInput,
+.inputUser:valid~.labelInput {
     top: -20px;
     font-size: 12px;
     color: dodgerblue;
 }
 
-#birthdate{
+#birthdate {
     border: none;
     padding: 8px;
     border-radius: 10px;
@@ -54,32 +54,32 @@ legend{
     font-size: 15px;
 }
 
-#submit{
+#submit {
     background-image: linear-gradient(#225959);
     width: 100%;
     border: none;
-    padding: 15px;
+    padding: 10px;
     color: white;
     font-size: 15px;
     cursor: pointer;
     border-radius: 10px;
 }
 
-#submit:hover{
+#submit:hover {
     background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
 }
 
-.navbar{
+.navbar {
     display: flex;
     background-color: white;
     justify-content: space-evenly;
 }
 
-h3{
+h3 {
     color: black;
 }
 
-.inputSearch{
+.inputSearch {
     background: none;
     border: none;
     border-bottom: 1px solid white;
@@ -90,8 +90,38 @@ h3{
     letter-spacing: 2px;
 }
 
-.flex{
+.flex {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexSalvar {
+    margin-left: 670px;
+    margin-right: 30px;
+}
+
+.flexImage {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h4 {
+    padding: 10px;
+}
+
+.User {
+    margin-top: 30px;
+}
+
+.grid-container-element {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+    width: 50%;
+}
+
+.grid-child-element {
+    margin: 10px;
 }

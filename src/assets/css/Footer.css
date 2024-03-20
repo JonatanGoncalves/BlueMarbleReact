@@ -1,4 +1,4 @@
-footer{
+footer {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -6,9 +6,11 @@ footer{
     flex-direction: column;
     position: absolute;
     bottom: 0;
+    top: 75%;
 }
 
-footer .social-icon, footer .menu{
+footer .social-icon,
+footer .menu {
     position: relative;
     display: flex;
     justify-content: center;
@@ -17,11 +19,12 @@ footer .social-icon, footer .menu{
     flex-wrap: wrap;
 }
 
-footer .social-icon li, footer .menu li{
+footer .social-icon li,
+footer .menu li {
     list-style: none;
 }
 
-footer .social-icon li a{
+footer .social-icon li a {
     font-size: 2em;
     color: white;
     margin: 0 10px;
@@ -29,11 +32,11 @@ footer .social-icon li a{
     transition: 0.5s;
 }
 
-footer .social-icon li a :hover{
+footer .social-icon li a :hover {
     transform: translateY(-10px);
 }
 
-footer .menu li a{
+footer .menu li a {
     font-size: 1.2em;
     color: white;
     margin: 0 10px;
@@ -42,11 +45,11 @@ footer .menu li a{
     opacity: 0.75;
 }
 
-footer .menu li a:hover{
+footer .menu li a:hover {
     opacity: 1;
 }
 
-footer p{
+footer p {
     color: white;
     text-align: center;
     margin-top: 5px;

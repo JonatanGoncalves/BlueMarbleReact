@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,36 +13,37 @@ body {
     position: relative;
     transition: 0.5s;
     font-family: serif;
-    background-color:rgb(34, 52, 58);
+    background-color: rgb(34, 52, 58);
 }
-.container-header{
+
+.container-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-around;
 }
 
-.h1{
+.h1 {
     gap: 20px;
-    
     color: white;
     font-size: 4em;
     -webkit-text-stroke: 1.0px black;
 }
 
-h1 i{
+h1 i {
     color: aqua;
 }
 
-a{
+a {
     color: #225959;
     text-decoration: none;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: flex-end;
     border: 1.5px solid white;
@@ -58,15 +59,15 @@ a{
     box-shadow: 0px 0px 10px 0px grey;
 }
 
-.email{
+.email {
     margin-top: 10px;
 }
 
-.senha{
+.senha {
     margin-top: 10px;
 }
 
-.cadastro{
+.cadastro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,18 +88,20 @@ input[type="password"] {
     box-sizing: border-box;
     border-radius: 6px;
 }
+
 button {
     display: flex;
     justify-content: center;
     background-color: #225959;
     color: white;
     padding: 14px 9px;
-    margin: 20px 0;
+    margin: 20px 20px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    
+
 }
+
 button:hover {
     opacity: 0.8;
 }
@@ -109,12 +112,14 @@ button:hover {
     margin-top: 0;
     margin-bottom: 10px;
 }
+
 .divider-text span {
     padding: 5px;
     font-size: 15px;
     position: relative;
     z-index: 2;
 }
+
 .divider-text:after {
     content: "";
     position: absolute;
@@ -125,22 +130,22 @@ button:hover {
     z-index: 1;
 }
 
-.center{
+.center {
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-.google{
+.google {
     border: solid 1px black;
     background-color: white;
-    margin-top: 0 ;
+    margin-top: 0;
     color: black;
     text-align: center;
     align-items: center;
 }
 
-button img{
+button img {
     width: 25px;
 }
