@@ -27,8 +27,7 @@ legend {
     outline: none;
     color: black;
     font-size: 15px;
-    width: 240%;
-    letter-spacing: 2px;
+    width: 120%;
 }
 
 .labelInput {
@@ -97,8 +96,8 @@ h3 {
 }
 
 .flexSalvar {
-    margin-left: 670px;
-    margin-right: 30px;
+    margin-left: 370px;
+    margin-right: 40px;
 }
 
 .flexImage {
@@ -124,4 +123,13 @@ h4 {
 
 .grid-child-element {
     margin: 10px;
+}
+
+#linha-vertical {
+    height: 330px;
+    border-right: 1px solid black;
+}
+
+.centralizar {
+    padding-bottom: 12px;
 }

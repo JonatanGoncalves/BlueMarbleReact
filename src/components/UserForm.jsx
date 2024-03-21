@@ -32,11 +32,10 @@ function UserForm() {
                 <a href='jogos'><h3>Jogos</h3></a>
                 <textarea placeholder='Pesquisar conteúdo' name="search" cols="50" rows="1"></textarea>
             </div>
-            <hr />
             <div className='box'>
                 <div>
                     <div className='flexImage'>
-                        <Image src={require("../assets/images/17004.png")} width={120}></Image>
+                        <Image src={require("../assets/images/17004.png")} width={120} />
                         <div className='User'>
                             <h1>Teste Gonçalves Teste</h1>
                         </div>
@@ -46,25 +45,32 @@ function UserForm() {
                 <br />
                 <div className='flex'>
                     <div className='edit'>
-                        <h4>
+                        <h5>
+                            <Image src={require("../assets/images/editUser.png")} width={50} />
                             <a href="/editUser">Editar Usuario</a>
-                        </h4>
-                        <h4>
+                        </h5>
+                        <h5>
+                            <Image src={require("../assets/images/editPicture.png")} width={50} />
                             <a href="/editImage">Editar Foto</a>
-                        </h4>
-                        <h4>
+                        </h5>
+                        <h5>
+                            <Image className='centralizar' src={require("../assets/images/changePassword.png")} width={50} />
                             <a href="/changeSenha">Trocar Senha</a>
-                        </h4>
-                        <h4>
+                        </h5>
+                        <h5>
+                            <Image className='centralizar' src={require("../assets/images/Email.png")} width={50} />
                             <a href="/registerEmail">Email Registrado</a>
-                        </h4>
-                        <h4>
-                            <a href="/help">Ajuda</a>
-                        </h4>
-                    </div>
 
+                        </h5>
+                        <h5>
+                            <Image className='centralizar' src={require("../assets/images/help.png")} width={50} />
+                            <a href="/help">Ajuda</a>
+                        </h5>
+
+                    </div>
+                    <div id="linha-vertical"></div>
                     <form onSubmit={handleSubmit}>
-                        <div className=''>
+                        <div>
                             <br />
                             <div className='flex'>
                                 <div className="inputBox">
@@ -92,13 +98,13 @@ function UserForm() {
                                 </div>
                             </div>
                         </div>
+                        <div className='flexSalvar'>
+                            <button id='submit' type="submit">Salvar</button>
+                        </div>
                     </form>
                 </div>
-                <div className='flexSalvar'>
-                    <button id='submit' type="submit">Salvar</button>
-                </div>
             </div>
-        </div>
+        </div >
     );
 }
 
