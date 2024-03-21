@@ -130,6 +130,11 @@ h4 {
     border-right: 1px solid black;
 }
 
+#linha-verticalNavBar {
+    height: 110px;
+    border-right: 1px solid black;
+}
+
 .centralizar {
     padding-bottom: 12px;
 }

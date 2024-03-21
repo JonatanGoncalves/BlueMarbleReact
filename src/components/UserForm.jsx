@@ -26,6 +26,7 @@ function UserForm() {
         <div>
             <div className='navbar'>
                 <Image src={require("../assets/images/Logo.png")} width={120} />
+                <div id="linha-verticalNavBar"></div>
                 <a href='/'><h1 className="h1"><i>BLUE </i>MARBLE</h1></a>
                 <a href='artigos'><h3>ONGs</h3></a>
                 <a href='batepapos'><h3>Bate Papo</h3></a>
